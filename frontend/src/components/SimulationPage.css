@@ -1,0 +1,26 @@
+/* SimulationPage.css */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+option {
+    padding: 5px;
+}
+
+div {
+    margin-top: 20px;
+}
