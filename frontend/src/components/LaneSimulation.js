@@ -19,7 +19,7 @@ const LaneSimulation = ({ vehicleId, initialLane }) => {
             setColor(updatedColor);
 
             updateVehicleLane(vehicleId, newLane);
-        }, 2000);
+        }, 30000);
         return () => clearInterval(interval);
     }, [currentLane, vehicleId]);
 
